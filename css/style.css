@@ -1,19 +1,131 @@
-html,
 body {
-  min-width: 1122px;
-  min-height: 1750px;
-  margin: 0;
-  padding: 0px;
-}
-body {
-
-  font: 14px PTSans;
+  font: bold 14px PT Sans Narrow;
+  color: #000000;
   line-height: 24px;
-  color: #F7F4F1;
+  background-color: #C6C6C6;
+  min-width: 1122px;
+  min-height: auto;
+}
+h1 {
+  font-size: 30px;
 }
 h2 {
-  font: 30px PTSans;
+  font-size: 24px;
 }
-h2 {
+.clearfix::after {
+  content: "";
 
+  display: table;
+  clear: both;
+}
+.main-header {
+  margin-bottom: 60px;
+  background-color: #CCE6CC;
+}
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #D5C0B3;
+}
+.main-navigation {
+  float: left;
+  width: 780px;
+  background-color: #DACD99;
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+.main-navigation ul li {
+  display: inline;
+}
+.head-element {
+  display: inline;
+}
+.user-block {
+  float: right;
+  min-height: 72px;
+  width: 120px;
+  background-color: #DACD99;
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+h1 {
+  margin-bottom: 30px;
+  background-color: #DACD99;
+}
+.breadcrumbs {
+  width: auto;
+  margin-bottom: 60px;
+  background-color: #DACD99;
+}
+.breadcrumbs ul li {
+  display: inline;
+}
+.checking {
+  float: left;
+  width: 180px;
+  background-color: #DACD99;
+}
+.index-content {
+  float: right;
+  margin-bottom: 40px;
+  width: 740px;
+  height: 640px;
+  text-align: center;
+  background-color: #DACD99;
+}
+.info {
+  float: right;
+  width: 390px;
+}
+.index-content-item {
+  float: left;
+  width: 500px;
+  height: 710px;
+  text-align: center;
+}
+.block {
+  display: inline-block;
+
+  width: 220px;
+  height: 286px;
+  text-align: left;
+}
+.block-item {
+  display: inline-block;
+  margin: 8px;
+}
+.down-nav {
+clear: both;
+margin-bottom: 40px;
+margin-left: 40%;
+width: 210px;
+height: 55px;
+background-color: #DACD99;
+}
+.down-nav ul li {
+  display: inline;
+}
+.main-footer {
+  margin-top: 0;
+  background-color: #CCE6CC;
+}
+.foot-element {
+  width: 305px;
+  min-height: 90px;
+  background-color: #DACD99;
+  font-size: 14px;
+}
+.footer-contacts {
+  float: left;
+}
+.footer-social {
+  float: left;
+  text-align: center;
+  padding-top: 25px;
+}
+.footer-copyright {
+  float: right;
+  text-align: center;
+  padding-top: 25px;
 }
